@@ -3,8 +3,7 @@
 ### Why this library?
 I was working in a test automation where I need to play with hundreds on JSON as those are my REST services output. Now there was a situation where I need to make sure my service is returning correct JSON schema and with correct content. For that I kept a predefined JSON in my framework and the test case will retrieve the service response and will compare with the pre-existing content. But there was a problem, in those JSON strings few parameters were dynamic so I was not able to compare directly.
 
-### Ok give an example -
-Let me try to explain it with an example -
+### Ok give me an example -
 
 `{"ColumnData":{"DataNames":{}},"SourceId":"b473f1fd-45de-11e4-b55d-005056993566","Name":"My data source","Text":"SymmetricalData|Sheet1", "Description":"Description for query"}`
 
