@@ -11,7 +11,7 @@ lets say above JSON is one of my service response. In the response 'SourceId' is
 
 There are two overloaded public methods 'ReplaceValues' -
 
-`public string ReplaceValues(string json, string[] keys)` : send the parameters that you want to replace in the 'keys' array and it will replace all those parameters with empty guid.
+`public string ReplaceValues(string json, string[] keys)` : this method will replace the values of the parameters that we will send in the 'keys' array with empty guid.
 
 `public string ReplaceValues(string json, string[] keys, string[] values)` : this method will replace the key value with the one that you will provide in the 'values' array. It will pick the same index value from the 'values' array, so make sure you keep the key in the 'keys' array and corresponding value in the 'values' array in same index.
 
