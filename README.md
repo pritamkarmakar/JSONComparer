@@ -18,4 +18,4 @@ There are two overloaded public methods 'ReplaceValues' -
 ### Sample output from the first method:
 `{"ColumnMetaData":{"ColumnNames":{}},"DataSourceId":"00000000-0000-0000-0000-000000000000","Name":"My data source","Text":"SymmetricalData|Sheet1", "Description":"Description for query"}`
 
-I'm not a geek.
+
