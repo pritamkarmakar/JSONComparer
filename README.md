@@ -18,7 +18,7 @@ There are two overloaded public methods 'ReplaceValues' -
 `public string ReplaceValues(string json, string[] keys, string[] values)` : this method will replace the key value with the one that you will provide in the 'values' array. It will pick the same index value from the 'values' array, so make sure you keep the key in the 'keys' array and corresponding value in the 'values' array in same index.
 
 ### Sample output from the first method:
-If we pass the above string to the first ReplaceValues and send 'DataSourceId' as the parameter to replace, below will be the output. 
+If we pass the above string to the first 'ReplaceValues' method and send 'DataSourceId' in the 'keys' array, below will be the output -
 `{"ColumnMetaData":{"ColumnNames":{}},"DataSourceId":"00000000-0000-0000-0000-000000000000","Name":"My data source","Text":"SymmetricalData|Sheet1", "Description":"Description for query"}`
 
 
