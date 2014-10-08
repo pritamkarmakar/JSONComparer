@@ -1,7 +1,7 @@
 -- If you are a Regex expert you can do it easily, but I'm not so I wrote this stuff.
 
 ### Why this library?
-I was working in a test automation where I need to play with hundreds on JSON as those are my REST services output. Now there was a situation where I need to make sure my service is returning correct JSON schema with all parameters and with correct values. For that I called the API using Fiddler and grabbed the JSON output response and kept this JSON in my test suite. Now the test case will retrieve the service response using HTTPClient and will compare with the pre-existing JSON content. 
+I was working in a test automation where I need to play with hundreds on JSON as those are my REST services output. Now there was a situation where I need to make sure my service is returning correct JSON schema with all parameters and with correct values. For that I called the API using Fiddler and grabbed the JSON output response and kept this in my test suite. Now the test case will retrieve the service response using HTTPClient and will compare with the pre-existing JSON content. 
 
 But there was a problem, in those JSON strings few parameters were dynamic so I was not able to compare directly.
 
