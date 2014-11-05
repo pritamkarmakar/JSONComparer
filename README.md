@@ -5,7 +5,7 @@ I was working in a test automation where I need to play with hundreds on JSON as
 
 But there was a problem, in those JSON strings few parameters were dynamic so I was not able to compare directly.
 
-### Ok give me an example -
+### Example -
 
 `{"ColumnData":{"DataNames":{}},"SourceId":"b473f1fd-45de-11e4-b55d-005056993566","Name":"My data source","Text":"SymmetricalData|Sheet1", "Description":"Description for query"}`
 
@@ -17,7 +17,7 @@ There are two overloaded public methods 'ReplaceValues' -
 
 `public string ReplaceValues(string json, string[] keys, string[] values)` : this method will replace the key value with the one that you will provide in the 'values' array. It will pick the same index value from the 'values' array, so make sure you keep the key in the 'keys' array and corresponding value in the 'values' array in same index.
 
-### Sample output from the first method:
+### Sample output:
 If we pass the above string to the first 'ReplaceValues' method and send 'DataSourceId' in the 'keys' array, below will be the output -
 
 `{"ColumnMetaData":{"ColumnNames":{}},"DataSourceId":"00000000-0000-0000-0000-000000000000","Name":"My data source","Text":"SymmetricalData|Sheet1", "Description":"Description for query"}`
