@@ -22,4 +22,6 @@ If we pass the above string to the first 'ReplaceValues' method and send 'DataSo
 
 `{"ColumnMetaData":{"ColumnNames":{}},"DataSourceId":"00000000-0000-0000-0000-000000000000","Name":"My data source","Text":"SymmetricalData|Sheet1", "Description":"Description for query"}`
 
+Now as we have removed the dynamic part of the string so we can go ahead and do the comparison.
+
 
