@@ -15,7 +15,7 @@ There are two overloaded public methods 'ReplaceValues' -
 
 `public string ReplaceValues(string json, string[] keys)` : this method will replace the values of the parameters that we will send in the 'keys' array with empty guid.
 
-`public string ReplaceValues(string json, string[] keys, string[] values)` : this method will replace the key value with the one that you will provide in the 'values' array. It will pick the same index value from the 'values' array, so make sure you keep the key in the 'keys' array and corresponding value in the 'values' array in same index.
+`public string ReplaceValues(string json, string[] keys, string[] values)` : this method will replace the parameters in the 'keys' array with the values provided 'values' array. It will pick the same index value from the 'values' array, so make sure you keep the key in the 'keys' array and corresponding value in the 'values' array in same index.
 
 ### Sample output:
 If we pass the above string to the first 'ReplaceValues' method and send 'DataSourceId' in the 'keys' array, below will be the output -
